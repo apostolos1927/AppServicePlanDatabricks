@@ -150,7 +150,6 @@ from pyspark.sql import DataFrame, Row
 from pyspark.sql.functions import col
 from pyspark.sql.functions import max as spark_max
 
-# /subscriptions/6637d6bd-ecfb-4fdf-8988-fe0a67a02a76/resourceGroups/test_example/providers/Microsoft.Web/serverfarms/apowebappdemo
 
 metric_url = "https://management.azure.com/subscriptions/{subscription_id}/resourceGroups/{resource_group}/providers/Microsoft.Web/serverfarms/{service_plan_app}/providers/Microsoft.Insights/metrics"
 access_token_url = "https://login.microsoftonline.com/{tenant_id}/oauth2/token"
